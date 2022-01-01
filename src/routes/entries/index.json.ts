@@ -15,8 +15,6 @@ export const get: RequestHandler = async (request) => {
 
 	return {
 		body: {
-			id: request.params.id,
-			name: 'some name',
 			entries
 		}
 	};
