@@ -1,6 +1,6 @@
 import path from 'path';
 
-import marv from 'marv/api/promise';
+import marv from 'marv/api/promise.js';
 import driver from 'marv-pg-driver';
 import { ENV } from '../env';
 
