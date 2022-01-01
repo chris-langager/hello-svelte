@@ -1,6 +1,6 @@
 <script context="module">
 	/** @type {import('@sveltejs/kit').Load} */
-	export async function load({ page, fetch, session, stuff }) {
+	export async function load({ fetch }) {
 		const url = `/entries.json`;
 		const res = await fetch(url);
 		const body = await res.json();
